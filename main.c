@@ -595,7 +595,7 @@ int main(int argc, char *argv[])
           editingMode = ARRIVAL_PLACING;
           render();
         }
-        else if(event.button.x >= 760 && event.button.x <= 900 && event.button.y >= 570 && event.button.y <= 610)
+        else if(event.button.x >= 760 && event.button.x <= 990 && event.button.y >= 570 && event.button.y <= 610)
         {
           if(needToBeClean)
           {
